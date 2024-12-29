@@ -1,0 +1,37 @@
+# Created at 2023-06-17T14:19:39.314
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+
+# Created at 2023-06-17T14:19:42.073
+Unexpected IOException: 8,1,rahulshettyacademy.SumitOrderTest,launchApplication(rahulshettyacademy.SumitOrderTest),null,Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. \000AHost info: host: 'DESKTOP-NKEQP0M'\002C ip: '192.168.0.102',null,Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. \000AHost info: host: 'DESKTOP-NKEQP0M'\002C ip: '192.168.0.102',SumitOrderTest>BaseTest.launchApplication:135->BaseTest.initilizationDriver:93 \00BB SessionNotCreated,org.openqa.selenium.SessionNotCreatedException: \000ACould not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. \000AHost info: host: 'DESKTOP-NKEQP0M'\002C ip: '192.168.0.102'\000ACaused by: org.openqa.selenium.WebDriverException: \000ATimed out waiting for driver process to start.\000ABuild info: version: '4.10.0'\002C revision: 'c14d967899'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.2'\000ADriver info: driver.version: FirefoxDriver\000A
+
+
+# Created at 2023-06-17T14:19:42.091
+Unexpected IOException: 5,1,rahulshettyacademy.SumitOrderTest,SubmitOrderTest(rahulshettyacademy.SumitOrderTest),purhase,null,null
+
+
+# Created at 2023-06-17T14:19:42.096
+Unexpected IOException: 9,1,rahulshettyacademy.SumitOrderTest,SubmitOrderTest(rahulshettyacademy.SumitOrderTest),null,Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. \000AHost info: host: 'DESKTOP-NKEQP0M'\002C ip: '192.168.0.102',null
+
+
+# Created at 2023-06-17T14:19:42.107
+Unexpected IOException: 8,1,rahulshettyacademy.SumitOrderTest,tearDown(rahulshettyacademy.SumitOrderTest),null,Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null,null,Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null,SumitOrderTest>BaseTest.tearDown:147 \00BB NullPointer Cannot invoke "org.openqa.s...,java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null\000A
+
+
+# Created at 2023-06-17T14:19:42.117
+Unexpected IOException: 5,1,rahulshettyacademy.SumitOrderTest,orderHistoryTest(rahulshettyacademy.SumitOrderTest),rahulshettyacademy.SumitOrderTest,null,null
+
+
+# Created at 2023-06-17T14:19:42.119
+Unexpected IOException: 9,1,rahulshettyacademy.SumitOrderTest,orderHistoryTest(rahulshettyacademy.SumitOrderTest),null,Method rahulshettyacademy.SumitOrderTest.orderHistoryTest() on instance rahulshettyacademy.SumitOrderTest@149e0f5d depends on not successfully finished methods \000A[rahulshettyacademy.SumitOrderTest.SubmitOrderTest() on instance rahulshettyacademy.SumitOrderTest@149e0f5d],null
+
+
+# Created at 2023-06-17T14:19:42.566
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGDirectoryTestSuite,TestSuite,null,null,null
+
+
